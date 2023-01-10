@@ -11,7 +11,7 @@ First in the client and second in the server.
 
 In the Client Folder create .env file and put this code inside it.
 
-`.env`
+`client/.env`
 
 ```
 REACT_APP_SERVER_DOMAIN="http://localhost:8080"
@@ -19,7 +19,7 @@ REACT_APP_SERVER_DOMAIN="http://localhost:8080"
 
 After that create a file in the Server Folder with the name config.js and put the below code inside it.
 
-`config.js`
+`server/config.js`
 
 ```
 export default {
